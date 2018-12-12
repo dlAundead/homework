@@ -9,41 +9,51 @@
 	<header>
 		<center><h1>Таблица это сила</h1></center>
 	</header>
-	<div>
-		<b>Форма входа:</b>
-		<form>
-			<label>
-				Логин:
-				<input type="text" name="login">
-			</label>
-			<label>
-				Пароль
-				<input type="password" name="password">
-			</label>
-			<button>Войти</button>
-		</form>
-	</div>
-
-	<div>
-		<h2>О параграфах</h2>
-		<p>
-			Чтобы создать параграф в HTML, необходимо использовать тег "p".<br>Например:<br> &ltp&gtЭто параграф&lt/p&gt
-		</p>
-	</div>
-
-	<div>
-		<div><p><b>Немного о блочной верстке.</b></p></div>
-		<img src="img/logo-html.png" alt="logo-html" width="80px" height="140px" align="left">
-	</div>
-
-	<div>
-		<p><b>Блочная верстка</b> для слабаков. Только <b>таблицы,</b> только <b>хардкор!</b> АЗАЗАЗААЗАЗАЗАЗАЗАЗАЗАЗ АЗАЗАЗАЗАЗА ЗАЗАзаазаз за за за заазз FAaaaaaaaaaaaaaaa</p>
-	</div>
-
-<!-- Таблица-->
-	<div>
+	<table width="100%">
+		<tr>
+			<td><b>Форма входа:</b></td>
+			<td><p><b>Немного о блочной верстке.</b></p></td>
+			<td></td> <!-- 3 -->
+			<td><h3>О параграфах</h3></td>
+			<td></td> <!-- 5 -->
+		</tr>
+		<tr>
+			<td>
+				<form>
+					<label>
+						<div>Логин:</div>
+						<div><input type="text" name="login"></div>
+					</label>
+					<label>
+						<div>Пароль</div>
+						<div><input type="password" name="password"></div>
+					</label>
+					<button>Войти</button>
+				</form>
+			</td>
+			<td rowspan="2"><img src="img/logo-html.png" alt="logo-html" width="80px" height="140px"></td>
+			<td></td> <!-- 23 -->
+			<td>
+				<p>
+					Чтобы создать параграф в HTML, необходимо использовать тег "p".<br>Например:<br> &ltp&gtЭто параграф&lt/p&gt
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td></td> <!-- 31 -->
+		</tr>
+		<tr>
+			<td></td> <!-- 41 -->
+			<td colspan="2">
+				<p>
+					<b>Блочная верстка</b> для слабаков. Только <b>таблицы,</b> только <b>хардкор!</b> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, ducimus, iste. Modi laboriosam, aperiam.
+				</p>
+			</td>
+			<td></td> <!-- 44 -->
+		</tr>
+	</table>
 		<center>
-			<table width="65%" border="1" cellspacing="2" cellpadding="4">
+			<table width="50%" border="1" cellspacing="2" cellpadding="4">
 				<tr align="center">
 					<td><b>*</b></td>
 					<td><b>Путин</b></td>
@@ -63,10 +73,9 @@
 					<td>45%</td>
 				</tr>
 			</table>
-		</center>
-	</div>
+		</center>	
 	<footer>
-		© 2018 Все права защищены
+		<p>© 2018 Все права защищены</p>
 	</footer>
 	</body>
 
